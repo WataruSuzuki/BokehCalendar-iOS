@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E9246C2623EF1F00FA7708 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9246B2623EF1F00FA7708 /* Tests_iOS.swift */; };
+		75E924772623EF1F00FA7708 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E924762623EF1F00FA7708 /* Tests_macOS.swift */; };
+		75E924792623EF1F00FA7708 /* BokehCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E924502623EF1D00FA7708 /* BokehCalendarApp.swift */; };
+		75E9247A2623EF1F00FA7708 /* BokehCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E924502623EF1D00FA7708 /* BokehCalendarApp.swift */; };
+		75E9247B2623EF1F00FA7708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E924512623EF1D00FA7708 /* ContentView.swift */; };
+		75E9247C2623EF1F00FA7708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E924512623EF1D00FA7708 /* ContentView.swift */; };
+		75E9247D2623EF1F00FA7708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E924522623EF1F00FA7708 /* Assets.xcassets */; };
+		75E9247E2623EF1F00FA7708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E924522623EF1F00FA7708 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E924682623EF1F00FA7708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E9244B2623EF1D00FA7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E924562623EF1F00FA7708;
+			remoteInfo = "BokehCalendar (iOS)";
+		};
+		75E924732623EF1F00FA7708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E9244B2623EF1D00FA7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E9245E2623EF1F00FA7708;
+			remoteInfo = "BokehCalendar (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75E924502623EF1D00FA7708 /* BokehCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokehCalendarApp.swift; sourceTree = "<group>"; };
+		75E924512623EF1D00FA7708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75E924522623EF1F00FA7708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E924572623EF1F00FA7708 /* BokehCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BokehCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E9245A2623EF1F00FA7708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E9245F2623EF1F00FA7708 /* BokehCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BokehCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E924612623EF1F00FA7708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E924622623EF1F00FA7708 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		75E924672623EF1F00FA7708 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E9246B2623EF1F00FA7708 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		75E9246D2623EF1F00FA7708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E924722623EF1F00FA7708 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E924762623EF1F00FA7708 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		75E924782623EF1F00FA7708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E924542623EF1F00FA7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E9245C2623EF1F00FA7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E924642623EF1F00FA7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E9246F2623EF1F00FA7708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E9244A2623EF1D00FA7708 = {
+			isa = PBXGroup;
+			children = (
+				75E9244F2623EF1D00FA7708 /* Shared */,
+				75E924592623EF1F00FA7708 /* iOS */,
+				75E924602623EF1F00FA7708 /* macOS */,
+				75E9246A2623EF1F00FA7708 /* Tests iOS */,
+				75E924752623EF1F00FA7708 /* Tests macOS */,
+				75E924582623EF1F00FA7708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E9244F2623EF1D00FA7708 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				75E924502623EF1D00FA7708 /* BokehCalendarApp.swift */,
+				75E924512623EF1D00FA7708 /* ContentView.swift */,
+				75E924522623EF1F00FA7708 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		75E924582623EF1F00FA7708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E924572623EF1F00FA7708 /* BokehCalendar.app */,
+				75E9245F2623EF1F00FA7708 /* BokehCalendar.app */,
+				75E924672623EF1F00FA7708 /* Tests iOS.xctest */,
+				75E924722623EF1F00FA7708 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E924592623EF1F00FA7708 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75E9245A2623EF1F00FA7708 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		75E924602623EF1F00FA7708 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				75E924612623EF1F00FA7708 /* Info.plist */,
+				75E924622623EF1F00FA7708 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		75E9246A2623EF1F00FA7708 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75E9246B2623EF1F00FA7708 /* Tests_iOS.swift */,
+				75E9246D2623EF1F00FA7708 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		75E924752623EF1F00FA7708 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				75E924762623EF1F00FA7708 /* Tests_macOS.swift */,
+				75E924782623EF1F00FA7708 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E924562623EF1F00FA7708 /* BokehCalendar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E924812623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "BokehCalendar (iOS)" */;
+			buildPhases = (
+				75E924532623EF1F00FA7708 /* Sources */,
+				75E924542623EF1F00FA7708 /* Frameworks */,
+				75E924552623EF1F00FA7708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BokehCalendar (iOS)";
+			productName = "BokehCalendar (iOS)";
+			productReference = 75E924572623EF1F00FA7708 /* BokehCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E9245E2623EF1F00FA7708 /* BokehCalendar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E924842623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "BokehCalendar (macOS)" */;
+			buildPhases = (
+				75E9245B2623EF1F00FA7708 /* Sources */,
+				75E9245C2623EF1F00FA7708 /* Frameworks */,
+				75E9245D2623EF1F00FA7708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BokehCalendar (macOS)";
+			productName = "BokehCalendar (macOS)";
+			productReference = 75E9245F2623EF1F00FA7708 /* BokehCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E924662623EF1F00FA7708 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E924872623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				75E924632623EF1F00FA7708 /* Sources */,
+				75E924642623EF1F00FA7708 /* Frameworks */,
+				75E924652623EF1F00FA7708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E924692623EF1F00FA7708 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 75E924672623EF1F00FA7708 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		75E924712623EF1F00FA7708 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E9248A2623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				75E9246E2623EF1F00FA7708 /* Sources */,
+				75E9246F2623EF1F00FA7708 /* Frameworks */,
+				75E924702623EF1F00FA7708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E924742623EF1F00FA7708 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 75E924722623EF1F00FA7708 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E9244B2623EF1D00FA7708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					75E924562623EF1F00FA7708 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75E9245E2623EF1F00FA7708 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75E924662623EF1F00FA7708 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 75E924562623EF1F00FA7708;
+					};
+					75E924712623EF1F00FA7708 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 75E9245E2623EF1F00FA7708;
+					};
+				};
+			};
+			buildConfigurationList = 75E9244E2623EF1D00FA7708 /* Build configuration list for PBXProject "BokehCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E9244A2623EF1D00FA7708;
+			productRefGroup = 75E924582623EF1F00FA7708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E924562623EF1F00FA7708 /* BokehCalendar (iOS) */,
+				75E9245E2623EF1F00FA7708 /* BokehCalendar (macOS) */,
+				75E924662623EF1F00FA7708 /* Tests iOS */,
+				75E924712623EF1F00FA7708 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E924552623EF1F00FA7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9247D2623EF1F00FA7708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E9245D2623EF1F00FA7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9247E2623EF1F00FA7708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E924652623EF1F00FA7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E924702623EF1F00FA7708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E924532623EF1F00FA7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9247B2623EF1F00FA7708 /* ContentView.swift in Sources */,
+				75E924792623EF1F00FA7708 /* BokehCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E9245B2623EF1F00FA7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9247C2623EF1F00FA7708 /* ContentView.swift in Sources */,
+				75E9247A2623EF1F00FA7708 /* BokehCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E924632623EF1F00FA7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E9246C2623EF1F00FA7708 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E9246E2623EF1F00FA7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E924772623EF1F00FA7708 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E924692623EF1F00FA7708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E924562623EF1F00FA7708 /* BokehCalendar (iOS) */;
+			targetProxy = 75E924682623EF1F00FA7708 /* PBXContainerItemProxy */;
+		};
+		75E924742623EF1F00FA7708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E9245E2623EF1F00FA7708 /* BokehCalendar (macOS) */;
+			targetProxy = 75E924732623EF1F00FA7708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75E9247F2623EF1F00FA7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75E924802623EF1F00FA7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75E924822623EF1F00FA7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.JchanKchan.BokehCalendar;
+				PRODUCT_NAME = BokehCalendar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E924832623EF1F00FA7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.JchanKchan.BokehCalendar;
+				PRODUCT_NAME = BokehCalendar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E924852623EF1F00FA7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.JchanKchan.BokehCalendar;
+				PRODUCT_NAME = BokehCalendar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		75E924862623EF1F00FA7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.JchanKchan.BokehCalendar;
+				PRODUCT_NAME = BokehCalendar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		75E924882623EF1F00FA7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.JchanKchan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BokehCalendar (iOS)";
+			};
+			name = Debug;
+		};
+		75E924892623EF1F00FA7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.JchanKchan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BokehCalendar (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E9248B2623EF1F00FA7708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.JchanKchan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BokehCalendar (macOS)";
+			};
+			name = Debug;
+		};
+		75E9248C2623EF1F00FA7708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.JchanKchan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BokehCalendar (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E9244E2623EF1D00FA7708 /* Build configuration list for PBXProject "BokehCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E9247F2623EF1F00FA7708 /* Debug */,
+				75E924802623EF1F00FA7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E924812623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "BokehCalendar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E924822623EF1F00FA7708 /* Debug */,
+				75E924832623EF1F00FA7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E924842623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "BokehCalendar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E924852623EF1F00FA7708 /* Debug */,
+				75E924862623EF1F00FA7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E924872623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E924882623EF1F00FA7708 /* Debug */,
+				75E924892623EF1F00FA7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E9248A2623EF1F00FA7708 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E9248B2623EF1F00FA7708 /* Debug */,
+				75E9248C2623EF1F00FA7708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E9244B2623EF1D00FA7708 /* Project object */;
+}
